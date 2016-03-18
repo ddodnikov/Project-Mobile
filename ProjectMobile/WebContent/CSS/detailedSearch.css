@@ -1,0 +1,112 @@
+body{
+	margin-left:150px;
+	font-family:sans-serif;
+    background-color: #EEE;
+    background-size:cover;
+    position:absolute;
+}
+ul{
+	background-color:#008FC6;
+	
+}
+
+ul li{
+	list-style-type:none;
+	display:inline-block;
+	
+}
+nav ul{
+    padding-left:0px;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+}
+nav ul li a{
+	font-size:16px;
+	background-color:#008FC6;
+}
+ul li a:hover{
+	color:black;
+}
+nav ul li a:hover{
+	color:black;
+}
+#begin{
+	padding-left:0px;
+	font-weight:bold;
+}
+#begin li a{
+	border-radius:7px 7px 0px 0px;
+	
+}
+
+td a{
+	font-weight:bold;
+}
+#Automobiles{
+	width:180px;
+}
+div span{
+	font-weight:bold;
+}
+
+#Search{
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    margin-left: 320px;
+    margin-bottom: 10px;
+}
+#mobile{
+	margin-left:-10px;
+}
+
+#detailedsearch{
+	border:1px solid #008FC6;
+	border-top:3px solid #008FC6;
+}
+p{
+	font-weight:bold;
+}
+#cat2{
+	margin-left:40px;
+    margin-right: 45px;
+    margin-top: 5px;
+}
+
+#prices, #powers, #color, #mileages, #model, #brand, #brands, #engines, #yearto, #yearfrom, #types, #sorts, #regions, #towns{
+    width: 150px;
+    margin-top: 20px;
+}
+#price, #power, #brand, #category, #condition, #year, #engine, type, #mileage, #region, #type, #add, #safety{
+    font-weight:bold;
+}
+
+#types, #regions {
+    margin-bottom: 20px;
+}
+#gif{
+    padding-left: 150px;
+}

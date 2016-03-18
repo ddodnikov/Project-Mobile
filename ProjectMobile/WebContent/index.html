@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Mobile.bg first page</title>
+<link href="./CSS/index.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Automobiles</a></li>
+				<li><a href="#">Buses</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Motocycles</a></li>
+			</ul>
+		</nav>
+		<div>
+			<span>Сайт </span> for Vehicles
+		</div>
+		<a href="#"><img id="mobile" src="./IMG/mobi.png" /></a> <a href="#"><img
+			id="gif" src="./IMG/59chevy_e0.gif" /></a>
+	</header>
+	<section>
+		<ul id="begin">
+			<li><a href="index.html#">Begin</a></li>
+			<li><a href="posting.html">Posting</a></li>
+			<li><a href="detailedSearch.html">Search</a></li>
+			<li><a href="#">News</a></li>
+		</ul>
+	</section>
+	<p>Search in mobile.bg - Automobiles</p>
+	<section>
+		<table id="cars">
+			<tbody>
+				<tr>
+					<td id="black">Main categories</td>
+					<td><img id="cat2"
+						src="http://www.mobile.bg/images/picturess/p1.gif"></td>
+				</tr>
+				<tr>
+					<td><select name="Automobiles" id="Automobiles">
+							<option>Automobiles</option>
+							<option>Buses</option>
+							<option>Trucks</option>
+							<option>Motocycles</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td id="black">Brand</td>
+					<td id="black">Model</td>
+				</tr>
+				<tr>
+					<td><select name="Brand" id="Brand">
+							<option>All</option>
+							<option>Audi</option>
+							<option>BMW</option>
+							<option>Citroen</option>
+							<option>Fiat</option>
+							<option>Ford</option>
+							<option>Mercedes</option>
+							<option>Nissan</option>
+					</select></td>
+					<td><select name="Model" id="Model">
+							<option>All</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td id="black">Maximal price</td>
+					<td>Year of Made</td>
+				</tr>
+				<tr>
+					<td><input type="text" size="15px" /></td>
+					<td><select name="Year" id="Year">
+							<option>All</option>
+							<option>After 2015</option>
+							<option>After 2010</option>
+							<option>After 2005</option>
+							<option>After 2000</option>
+							<option>After 1995</option>
+							<option>After 1990</option>
+							<option>After 1980</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Engine</td>
+					<td>Gear Box</td>
+				</tr>
+				<tr>
+					<td><select name="Engine" id="Engine">
+							<option>All</option>
+							<option>Gasoline</option>
+							<option>Diesel</option>
+							<option>Electrical</option>
+							<option>Hybrid</option>
+					</select></td>
+					<td><select name="Gear Box" id="GearBox">
+							<option>All</option>
+							<option>Manual</option>
+							<option>Autoatic</option>
+							<option>Semiautomatic</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Condition</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" checked="checked"> <span>New</span>
+						<input type="checkbox" checked="checked"> <span>SecondHand</span>
+					</td>
+					<td><input type="checkbox"> <span>Aparts</span></td>
+				</tr>
+				<tr>
+					<td><a href="detailedSearch.html">Detailed Search</a></td>
+					<td>
+						<form action="./GetAll" method="get">
+							<input id="Search" value="SearchAll" type="submit">
+						</form>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section id="users">
+		<table>
+			<div id="title">Enter for users and dealers</div>
+			<tbody>
+				<tr>
+					<td><a href="registration.html">New Registration</a>
+						<div id="help">(only for two minutes)</div></td>
+					<td>
+						<form action="login.html">
+							<input id="enterBut" type="submit" value="LOGIN">
+						</form>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<a href="http://www.ittalents.bg/home" id="niki"> <img
+		src="./IMG/niki.png" alt="Go to ITTalents!" id="test" width="280"
+		height="280">
+	</a>
+
+
+
+</body>
+</html>

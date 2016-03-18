@@ -1,0 +1,360 @@
+<html>
+
+<head>
+<meta charset="UTF-8"/>
+<title>Detailed Search</title>
+<link href="./CSS/detailedSearch.css" rel="stylesheet" />
+</head>
+
+<body>
+<form action="./Search" method="get" id="form">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Automobiles</a></li>
+				<li><a href="#">Buses</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Motocycles</a></li>
+			</ul>
+		</nav>
+		<div>
+			<span>Сайт </span> for Vehicles
+		</div>
+		<a href="index.html"><img id="mobile" src="./IMG/mobi.png" /></a> <a
+			href="#"><img id="gif" src="./IMG/59chevy_e0.gif" /></a>
+	</header>
+	<section>
+		<ul id="begin">
+			<li><a href="index.html">Begin</a></li>
+			<li><a href="posting.html">Posting</a></li>
+			<li><a href="detailedSearch.html">Search</a></li>
+			<li><a href="#">News</a></li>
+		</ul>
+	</section>
+	<p>Detailed Search in mobile.bg - Automobiles</p>
+	<section>
+		<table id="detailedsearch">
+			<tbody>
+
+				<tr>
+					<td id="category">Main category <select name="Automobiles"
+						id="automobiles">
+							<option>Automobiles</option>
+							<option>Buses</option>
+							<option>Trucks</option>
+							<option>Motocycles</option>
+
+					</select> <img id="cat2" src="./IMG/p1.gif">
+					</td>
+					<td id="condition">Condition <input type="checkbox"
+						unchecked="unchecked"> <span>New</span> <input
+						type="checkbox" checked="checked"> <span>Second
+							hand</span> <input type="checkbox" unchecked="unchecked"> <span>For
+							parts</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="brand">Brand <select name="Brand" id="brands">
+							<option value="All">All</option>
+							<option value="Audi">Audi</option>
+							<option value="BMW">BMW</option>
+							<option value="Citroen">Citroen</option>
+							<option value="Fiat">Fiat</option>
+							<option value="Ford">Ford</option>
+							<option value="Mercedes">Mercedes</option>
+							<option value="Nissan">Nissan</option>
+					</select> Model <select name="Model" id="model">
+							<option>All</option>
+					</select>
+					</td>
+
+					<td id="year">Year from <select name="YearFrom" id="yearfrom">
+							<option>from 2000</option>
+							<option>from 2001</option>
+							<option>from 2002</option>
+							<option>from 2003</option>
+							<option>from 2004</option>
+							<option>from 2005</option>
+							<option>from 2006</option>
+							<option>from 2007</option>
+							<option>from 2008</option>
+							<option>from 2009</option>
+							<option>from 2010</option>
+							<option>from 2011</option>
+							<option>from 2012</option>
+							<option>from 2013</option>
+							<option>from 2014</option>
+							<option>from 2015</option>
+					</select> to <select name="YearTo" id="yearto">
+							<option>to 2000</option>
+							<option>to 2001</option>
+							<option>to 2002</option>
+							<option>to 2003</option>
+							<option>to 2004</option>
+							<option>to 2005</option>
+							<option>to 2006</option>
+							<option>to 2007</option>
+							<option>to 2008</option>
+							<option>to 2009</option>
+							<option>to 2010</option>
+							<option>to 2011</option>
+							<option>to 2012</option>
+							<option>to 2013</option>
+							<option>to 2014</option>
+							<option>to 2015</option>
+					</select>
+					</td>
+
+				</tr>
+				<tr>
+					<td id="brand">Brand <select name="Bran" id="brands">
+							<option>All</option>
+							<option>Audi</option>
+							<option>BMW</option>
+							<option>Citroen</option>
+							<option>Fiat</option>
+							<option>Ford</option>
+							<option>Mercedes</option>
+							<option>Nissan</option>
+					</select> Model <select name="Model" id="model">
+							<option>All</option>
+					</select>
+					</td>
+
+					<td id="price">Price from <input type="text" id="prices" />
+						to <input type="text" id="prices" /> Currency <select
+						name="Currency" id="currency">
+							<option>BGN</option>
+							<option>EUR</option>
+							<option>USD</option>
+							<option>GBP</option>
+					</select>
+					</td>
+
+				</tr>
+				<tr>
+					<td id="brand">Brand <select name="Bran" id="brands">
+							<option>All</option>
+							<option>Audi</option>
+							<option>BMW</option>
+							<option>Citroen</option>
+							<option>Fiat</option>
+							<option>Ford</option>
+							<option>Mercedes</option>
+							<option>Nissan</option>
+					</select> Model <select name="Model" id="model">
+							<option>All</option>
+					</select>
+					</td>
+
+					<td id="power">Power from <input type="text" id="powers" />
+						to <input type="text" id="powers" /> (h.p.)
+					</td>
+				</tr>
+
+				<tr>
+					<td id="engine">Engine <select name="Engine" id="engines">
+							<option>All</option>
+							<option>Gasoline</option>
+							<option>Diesel</option>
+							<option>Electric</option>
+							<option>Hybrid</option>
+					</select> Gears <select name="Model" id="model">
+							<option>All</option>
+							<option>Manual</option>
+							<option>Automatic</option>
+							<option>Semi-automatic</option>
+					</select>
+					</td>
+
+					<td id="mileage">Mileage <select name="Mileage" id="mileages">
+							<option>All</option>
+							<option>up to 25 000 km</option>
+							<option>up to 50 000 km</option>
+							<option>up to 75 000 km</option>
+							<option>up to 100 000 km</option>
+							<option>up to 150 000 km</option>
+							<option>up to 200 000 km</option>
+							<option>more than 200 000 km</option>
+					</select> Color <select name="Color" id="color">
+							<option>All</option>
+							<option>Red</option>
+							<option>Green</option>
+							<option>Black</option>
+							<option>Blue</option>
+							<option>White</option>
+							<option>Yellow</option>
+							<option>Purple</option>
+							<option>Grey</option>
+							<option>Brown</option>
+							<option>Orange</option>
+					</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="type">Type <select name="Type" id="types">
+							<option>All</option>
+							<option>Van</option>
+							<option>Cabrio</option>
+							<option>Sedan</option>
+							<option>Combi</option>
+							<option>Pickup</option>
+							<option>Minivan</option>
+							<option>Hatchback</option>
+					</select> Sort by <select name="Sort" id="sorts">
+							<option>Brand/Model/Price</option>
+							<option>Price</option>
+							<option>Year</option>
+							<option>Mileage</option>
+							<option>Most recent</option>
+					</select>
+					</td>
+
+					<td id="region">Region <select name="Region" id="regions">
+							<option>All</option>
+							<option>Sofia</option>
+							<option>Plovdiv</option>
+							<option>Varna</option>
+							<option>Burgas</option>
+							<option>Pazardzhik</option>
+							<option>Veliko Tarnovo</option>
+							<option>Ruse</option>
+							<option>Vidin</option>
+							<option>Blagoevgrad</option>
+							<option>Stara Zagora</option>
+							<option>Pleven</option>
+							<option>Dobrich</option>
+							<option>Sliven</option>
+							<option>Shumen</option>
+					</select> Town <select name="Town" id="towns">
+							<option>All</option>
+					</select>
+					</td>
+				</tr>
+
+				<tr id="space">
+					<td id="safety">Safety and comfort features</td>
+					<td id="safety">Additional features</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>GPS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>4x4</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AYC,ASC,TRC,SH-AWD</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>7
+							seats</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AFL</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Gas</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>ABS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Metane</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- front</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Import</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- back</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Alarm</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- sides</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Emobilizer</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>EBD</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Tuning</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Brake
+							Assist, BAS</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>LED
+							lights</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Park
+							Assist</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Central
+							Lockdown</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>TPMS,
+							SmarTire</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Ksenon
+							lights</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>ASR,TCS,EDL,TCL</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Leather
+							salon</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Distronic</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Right
+							wheel</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>DBS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Stereo</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>DSA</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Airconditioning</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Legend:</td>
+					<td>
+					<input id="Search" value="SEARCH" type="submit">
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</section>
+	</form>
+</body>
+
+</html>

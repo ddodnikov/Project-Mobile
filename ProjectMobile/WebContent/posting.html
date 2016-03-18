@@ -1,0 +1,363 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Post vehicle</title>
+<link href="./CSS/posting.css" rel="stylesheet" />
+</head>
+
+
+<body>
+
+<form action="./PostingServlet" method="post" id="form">
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Automobiles</a></li>
+				<li><a href="#">Buses</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Motocycles</a></li>
+			</ul>
+		</nav>
+		<div>
+			<span>Сайт </span> for Vehicles
+		</div>
+		<a href="#"><img id="mobile" src="./IMG/mobi.png" /></a> <a href="#"><img
+			id="gif" src="./IMG/59chevy_e0.gif" /></a>
+	</header>
+	<section>
+		<ul id="begin">
+			<li><a href="index.html">Begin</a></li>
+			<li><a href="posting.html">Posting</a></li>
+			<li><a href="detailedSearch.html">Search</a></li>
+			<li><a href="#">News</a></li>
+		</ul>
+	</section>
+	<p>Posting in mobile.bg - Automobiles</p>
+	<section>
+		<table id="detailedsearch">
+
+			<tbody>
+
+				<tr>
+
+					<td id="category">Main category <select name="Automobiles"
+						id="automobiles">
+							<option>Automobiles</option>
+							<option>Buses</option>
+							<option>Trucks</option>
+							<option>Motocycles</option>
+					</select> <img id="cat2" src="./IMG/p1.gif">
+
+					</td>
+
+					<td id="condition">Condition <input type="radio" name="type"
+						value="new"> <span>New</span> <input type="radio"
+						name="type" value="second hand" checked="checked"> <span>Second
+							hand</span> <input type="radio" name="type" value="parts"> <span>For
+							parts</span>
+
+					</td>
+				</tr>
+
+				<tr>
+					<td id="brand">Brand 
+					<select name="brand" id="brands" >
+							<option value="All">All</option>
+							<option value="Audi">Audi</option>
+							<option value="BMW">BMW</option>
+							<option value="Citroen">Citroen</option>
+							<option value="Fiat">Fiat</option>
+							<option value="Ford">Ford</option>
+							<option value="Mercedes">Mercedes</option>
+							<option value="Nissan">Nissan</option>
+					</select> Model <select name="model" id="model">
+							<option value="All">All</option>
+					</select>
+					</td>
+
+					<td id="modification">Modification<input type="text" id="mod" />Engine
+						<select name="engine" id="engines">
+							<option value="All">All</option>
+							<option value="Gasoline">Gasoline</option>
+							<option value="Diesel">Diesel</option>
+							<option value="Electric">Electric</option>
+							<option value="Hybrid">Hybrid</option>
+					</select>
+					</td>
+
+
+
+
+
+				</tr>
+				<tr>
+					<td id="power">Power &nbsp;
+						
+						<input type="text" name="power" id="powers" />
+						<span id="horse">in horse power</span>
+
+
+
+
+					</td>
+
+					<td id="gearbox"><br>Gearbox <select name="gearbox"
+						id="gearboxes" >
+							<option value="Manual">Manual</option>
+							<option value="Semi-Automatic">Semi-Automatic</option>
+							<option value="Automatic">Automatic</option>
+					</select> &nbsp; Type <select name="type" id="types">
+							<option value="All">All</option>
+							<option value="Van">Van</option>
+							<option value="Cabrio">Cabrio</option>
+							<option value="Sedan">Sedan</option>
+							<option value="Combi">Combi</option>
+							<option value="Pickup">Pickup</option>
+							<option value="Minivan">Minivan</option>
+							<option value="Hatchback">Hatchback</option>
+					</select></td>
+
+
+
+
+
+
+				</tr>
+				<tr>
+
+					<td id="price">Price &nbsp; &nbsp; <input type="text"
+						name="price" id="prices" /> Currency <select
+						name="Currency" id="currency">
+							<option>BGN</option>
+							<option>EUR</option>
+							<option>USD</option>
+							<option>GBP</option>
+					</select>
+					</td>
+
+					<td id="year">Date of production <select name="YearFrom"
+						id="yearfrom">
+							<option>january</option>
+							<option>february</option>
+							<option>march</option>
+							<option>april</option>
+							<option>may</option>
+							<option>june</option>
+							<option>july</option>
+							<option>august</option>
+							<option>september</option>
+							<option>october</option>
+							<option>november</option>
+							<option>december</option>
+					</select> <select name="year" id="yearto">
+							<option value="2000">2000</option>
+							<option value="2001">2001</option>
+							<option value="2002">2002</option>
+							<option value="2003">2003</option>
+							<option value="2004">2004</option>
+							<option value="2005">2005</option>
+							<option value="2006">2006</option>
+							<option value="2007">2007</option>
+							<option value="2008">2008</option>
+							<option value="2009">2009</option>
+							<option value="2010">2010</option>
+							<option value="2011">2011</option>
+							<option value="2012">2012</option>
+							<option value="2013">2013</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+					</select>
+					</td>
+
+				</tr>
+
+
+
+
+
+				<tr>
+
+
+
+
+					<td id="colors">Color &nbsp; <select name="color" id="color">
+							<option value="All">All</option>
+							<option value="Red">Red</option>
+							<option value="Green">Green</option>
+							<option value="Black">Black</option>
+							<option value="Blue">Blue</option>
+							<option value="White">White</option>
+							<option value="Yellow">Yellow</option>
+							<option value="Purple">Purple</option>
+							<option value="Grey">Grey</option>
+							<option value="Brown">Brown</option>
+							<option value="Orange">Orange</option>
+					</select>
+					</td>
+					<td id="region">Region <select name="Region" id="regions">
+							<option>All</option>
+							<option>Sofia</option>
+							<option>Plovdiv</option>
+							<option>Varna</option>
+							<option>Burgas</option>
+							<option>Pazardzhik</option>
+							<option>Veliko Tarnovo</option>
+							<option>Ruse</option>
+							<option>Vidin</option>
+							<option>Blagoevgrad</option>
+							<option>Stara Zagora</option>
+							<option>Pleven</option>
+							<option>Dobrich</option>
+							<option>Sliven</option>
+							<option>Shumen</option>
+					</select> Town <select name="Town" id="towns">
+							<option>All</option>
+					</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="mileage">Mileage <input type="text" name="mileage"
+						id="mileageBox" >
+
+
+					</td>
+					<td id="validity">Validity <select name="period" 
+						id="validityBox">
+							<option value="35 days">35 days</option>
+							<option value="49 days">49 days</option>
+					</select>
+					</td>
+
+
+
+				</tr>
+
+				<tr id="space">
+					<td id="safety">Safety and comfort features</td>
+					<td id="safety">Additional features</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>GPS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>4x4</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AYC,ASC,TRC,SH-AWD</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>7
+							seats</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AFL</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Gas</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>ABS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Metane</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- front</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Import</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- back</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Alarm</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>AirBags
+							- sides</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Emobilizer</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>EBD</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Tuning</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Brake
+							Assist, BAS</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>LED
+							lights</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Park
+							Assist</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Central
+							Lockdown</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>TPMS,
+							SmarTire</span></td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Ksenon
+							lights</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>ASR,TCS,EDL,TCL</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Leather
+							salon</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>Distronic</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Right
+							wheel</span></td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>DBS</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Stereo</span>
+					</td>
+				</tr>
+
+				<tr id="feature">
+					<td><input type="checkbox" unchecked="unchecked"> <span>DSA</span>
+					</td>
+					<td><input type="checkbox" unchecked="unchecked"> <span>Airconditioning</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Legend:</td>
+					<td>
+						<input type="submit" value="POST" id="Search">
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</section>
+	
+	</form>
+	
+</body>
+
+</html>
